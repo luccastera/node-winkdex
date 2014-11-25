@@ -1,0 +1,41 @@
+{
+  "name": "node-winkdex",
+  "description": "Node.js wrapper for the winkdex API",
+  "version": "0.1.0",
+  "keywords": [
+    "winkdex",
+    "winklevoss index",
+    "bitcoin",
+    "cryptocurrency"
+  ],
+  "homepage": "https://github.com/dambalah/node-winkdex",
+  "author": {
+    "name": "Luc Castera",
+    "email": "luc.castera@gmail.com",
+    "url": "http://luccastera.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dambalah/node-winkdex.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "request": "2.48.0"
+  },
+  "devDependencies": {
+    "mocha": "1.21.5",
+    "jshint": "2.5.6",
+    "nock": "0.51.0"
+  },
+  "browserDependencies": {
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec spec.js",
+    "jshint": "./node_modules/jshint/bin/jshint index.js spec.js"
+  },
+  "bugs": {
+    "url": "https://github.com/dambalah/node-winkdex/issues"
+  }
+}
+
