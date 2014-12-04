@@ -23,5 +23,4 @@ describe('WinkDex', function() {
     it('should return the time series for the last 6 months by default');
     it('should return the time series for the time specified');
   });
-
 });
