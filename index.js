@@ -7,6 +7,7 @@ var WinkDex = function(options) {
   this.userAgent = options.userAgent || 'node-winkdex';
   this.gzip = options.gzip || true;
 
+  this.rootURL = 'https://winkdex.com/api/' + this.apiVersion
 };
 
 WinkDex.prototype.apiVersion = function(callback) {
