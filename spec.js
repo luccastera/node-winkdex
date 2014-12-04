@@ -6,8 +6,8 @@ var WinkDex = require('./index'),
 var fixtures = {};
 
 describe('WinkDex', function() {
-
   describe('apiVersion', function() {
+    it('should return an error if the server does so');
     it('should return current version number');
   });
 
