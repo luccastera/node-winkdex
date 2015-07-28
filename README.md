@@ -159,6 +159,24 @@ winkdex.series(start, end, function(err, series) {
 });
 ```
 
+## Development
+
+You can submit bug reports or feature requests to
+[https://github.com/dambalah/node-winkdex/issues](https://github.com/dambalah/node-winkdex/issues),
+but what I would like even more is a well tested pull request :-)
+
+To run the tests:
+
+```
+npm test
+```
+
+To check with jshint:
+
+```
+npm run-script jshint
+```
+
 ## License
 
 [MIT](LICENSE)
